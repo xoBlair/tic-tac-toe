@@ -17,25 +17,80 @@ $("button").click(function() {
 		$(this).text("O");
 	 }
 	 turn++;
+	winnerIsX();
+	winnerIsO();
+
   }
 });
 
 
 
+//function to find if X won
 
-//function to visually display which side won
-
-function getWinner () {
-	if (winnerIsX()) {
-		return 'Winner is X';
+function winnerIsX() {
+	if ($("#b1").text()==="X" && $("#b2").text()==="X" && $("#b3").text()==="X"){
+		setWinner();
 	}
-	if (winnerisO()) {
-		return 'Winner is O';
+	else if ($("#b4").text()==="X" && $("#b5").text()==="X" && $("#b6").text()==="X"){
+		setWinner();
 	}
-	return null;
-
-	
+	else if ($("#b7").text()==="X" && $("#b8").text()==="X" && $("#b9").text()==="X"){
+		setWinner();
+	}
+	else if ($("#b1").text()==="X" && $("#b5").text()==="X" && $("#b9").text()==="X"){
+		setWinner();
+	}
+	else if ($("#b3").text()==="X" && $("#b5").text()==="X" && $("#b7").text()==="X"){
+		setWinner();
+	}
 }
+
+function setWinner() {
+	$(".Winner").text("X is winner");
+
+}
+
+
+
+//function to find if O won
+
+function winnerIsO() {
+	if ($("#b1").text()==="O" && $("#b2").text()==="O" && $("#b3").text()==="O"){
+		setWinner2();
+	}
+	else if ($("#b4").text()==="O" && $("#b5").text()==="O" && $("#b6").text()==="O"){
+		setWinner2();
+	}
+	else if ($("#b7").text()==="O" && $("#b8").text()==="O" && $("#b9").text()==="O"){
+		setWinner2();
+	}
+	else if ($("#b1").text()==="O" && $("#b5").text()==="O" && $("#b9").text()==="O"){
+		setWinner2();
+	}
+	else if ($("#b3").text()==="O" && $("#b5").text()==="O" && $("#b7").text()==="O"){
+		setWinner2();
+	}
+}
+
+function setWinner2() {
+	$(".Winner").text("O is winner");
+}
+
+
+// //function to visually display which side won
+
+// function getWinner() {
+// 	if (winnerIsX()) {
+// 		return 'Winner is X';
+// 	}
+// 	if (winnerisO()) {
+// 		return 'Winner is O';
+// 	}
+// 	return null;
+
+// }
+
+
 
 
 //function to restart game
