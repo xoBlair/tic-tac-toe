@@ -1,6 +1,5 @@
 $(document).ready(function() {
     console.log( "ready!" );
-});
 
 
 var turn = 0;
@@ -77,7 +76,9 @@ function setWinner2() {
 }
 
 
-// //function to visually display which side won
+
+
+// //function to visually display running log (scoreboard) of winners
 
 // function getWinner() {
 // 	if (winnerIsX()) {
@@ -93,12 +94,14 @@ function setWinner2() {
 
 
 
-//function to restart game
+$("#Restart").click(function(){
+	location.reload(true);
+	console.log("hello");
+});
 
 
 
 
 
-
-
+});
 
