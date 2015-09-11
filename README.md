@@ -1,44 +1,37 @@
 # tic-tac-toe
 
-Hello friend. This is an awesome Tic Tac Toe game, just for you! 
+Hello friend. This is an Quick Tic Tac Toe game, created just for you! 
 
-Find online at: 
+Find it online at: 
 
 
 Some features:
 
-	-tic tac toe game for two users to interact with a virtual pen & paper (game board)
+	-tic tac toe game for two users to interact with a virtual game board
 
-	-game prompts user to make a move when it’s their turn
-
-	-gathers and stores player one input (X)
-
-	-gathers and stores player two input (O)
+	-alternate between players
 
 	-only one move can be made per player, per turn
 
-	-once game reaches 3 in a row (row, column, or diagonal) screen displays “winner”
+	-once game reaches 3 in a row (row, column, or diagonal) screen displays a winner
 
-	-then, screen displays “loser” to the opposing player
+	-in the result of a cat (no winner), screen displays alert message indicating it's a cat game
 
-	-records number of times a player has won
+	-when the “restart game” button is pressed, restart game from beginning
 
-	-in the result of a cat (no winner), do not record game on scoreboard. 
-
-	-in the case of a “cat,”  prompt players to try again
-
-	-when the “try again” button is pressed, restart game from beginning
+	-cute pup picture for happiness
 
 
+Technologies used:
 
-	Thanks to :
+	-Javascript
+	-Bootstrap
+	-jQuery
+	-Git and GitHub
+	-BitBaloon
+	-Pivotal Tracker for project management 
 
 
-
-
-
-
-	A working game, built by you, hosted somewhere on the internet
 A link to your hosted working game in the URL section of your Github repo
-A git repository hosted on Github, with a link to your hosted game, and frequent commits dating back to the very beginning of the project
+A git repository hosted on Github, with a link to your hosted game
 A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.

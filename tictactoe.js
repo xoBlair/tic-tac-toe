@@ -2,18 +2,14 @@ $(document).ready(function() {
     console.log( "ready!" );
 
 
+$("#grumpy").hide();
+
 var turn = 0;
 
 $(".square").click(function() {
 
   if ($(this).text() !=="X" && ($(this).text() !=="O")) {
 	
-	// if (turn%2===0) {
-	// 	$(this).text("X").addClass("x");
-	//   }
-	// else if (turn%2===1) {
-	// 	$(this).text("O").addClass("o");
-	//  }
 	if (turn%2===0) {
 		$(this).text('X').prepend('<img id="x_img" src="x.png">').addClass("x");
 	  }
@@ -31,7 +27,8 @@ $(".square").click(function() {
 
 function winnerIsCat() {
 		if (turn===9 && winnerIsX()===false) {
-		alert("meow");
+		$("#peaches").hide();
+		$("#grumpy").show();
 	}
 }
 
