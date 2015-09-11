@@ -1,74 +1,43 @@
-body{
-
+body {
 	text-align:center;
-	
 }
 
-.box{
 
-	text-align:left;
-	width:auto;
-	height:auto;
-	
-}
-
-h3{
-
+h1 {
 	position:relative;
-	-webkit-animation:h3Animation 5s; 
-	
 }
 
-h1{
-
-	position:relative;
-	-webkit-animation:h1Animation 5s; 
-	
+.square {
+	width: 100px;
+	height: 100px;
+	background: #ccc;
+	margin: 5px;
+	cursor: pointer;
 }
 
-h2{
-
-	position:relative;
-	-webkit-animation:h2Animation 5s; 
-	
+.x {
+	background: blue;
+	color: blue;
+	font-size: 24px;
+	overflow: hidden;
 }
-
-canvas{
-
-	position:relative;
-	-webkit-animation:canvasAnimation 5s; 
-	
+.o {
+	background: red;
+	color: red;
+	font-size: 24px;
+	overflow: hidden;
 }
-
-@-webkit-keyframes canvasAnimation {
-
-	0%   {-webkit-transform:rotate(90deg);left:0px; top:0px;}
-	
+#x_img {
+	width: 100%;
+	margin-top: 15px;
+	color: blue;
 }
-
-@-webkit-keyframes h1Animation {
-
-	0%   {-webkit-transform:rotate(0deg)}
-	25%   {-webkit-transform:rotate(90deg)}
-	50%  {-webkit-transform:rotate(180deg)}
-	75%  {-webkit-transform:rotate(270deg)}
-	100%  { -webkit-transform:rotate(360deg)}
-	
+#o_img {
+	width: 100%;
+	margin-top: 15px;
+	color: red;
 }
-
-@-webkit-keyframes h2Animation{
-
-	0%   {-webkit-transform: scale(1,2);}
-	25%   {-webkit-transform: scale(2,3);}
-	50%  {-webkit-transform: scale(3,4);}
-	75%  {-webkit-transform: scale(4,5);}
-	100%  { -webkit-transform: scale(0,0);}
-	
-}
-@-webkit-keyframes h3Animation{
-
-	0%   {-webkit-transform: scale(0,0);}
-	50% {-webkit-transform: scale(0,0);}
-	100%  {-webkit-transform: scale(100,100);}
-	
+.top, .middle, .bottom {
+	width: 330px;
+	margin: 0 auto;
 }

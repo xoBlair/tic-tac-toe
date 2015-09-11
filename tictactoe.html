@@ -8,8 +8,16 @@
 	<head>
 		<title>Blair's Tic Tac Toe Game</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript"></script>
-	
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
 
@@ -18,7 +26,7 @@
 
 <h1 class="Winner"></h1>
 
-<div id="row1">
+<!-- <div id="row1">
 	<button id="b1">1</button>
 	<button id="b2">2</button>
 	<button id="b3">3</button>
@@ -32,11 +40,36 @@
 	<button id="b7">7</button>
 	<button id="b8">8</button>
 	<button id="b9">9</button>
+</div> -->
+
+
+<div id="game" class="container">
+	<div class="row">
+		<div class="top">
+			<div id="b1" class="col-md-4 square"></div>
+			<div id="b2" class="col-md-4 square"></div>
+			<div id="b3" class="col-md-4 square"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="middle">
+			<div id="b4" class="col-md-4 square"></div>
+			<div id="b5" class="col-md-4 square"></div>
+			<div id="b6" class="col-md-4 square"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="bottom">
+			<div id="b7" class="col-md-4 square"></div>
+			<div id="b8" class="col-md-4 square"></div>
+			<div id="b9" class="col-md-4 square"></div>
+		</div>
+	</div>
 </div>
 
 	<script src="tictactoe.js"></script>
 	<div>
-<button id="Restart">Restart</button>
+<button id="Restart">Restart Game</button>
 	</div>
 	</body>
 
