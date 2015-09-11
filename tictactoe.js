@@ -30,7 +30,7 @@ $(".square").click(function() {
 //function for cat game
 
 function winnerIsCat() {
-	if (turn===9){
+		if (turn===9 && winnerIsX()===false) {
 		alert("meow");
 	}
 }
@@ -64,10 +64,14 @@ function winnerIsX() {
 	else if ($("#b2").text()==="X" && $("#b5").text()==="X" && $("#b8").text()==="X"){
 		setWinner();
 	}
+	else {
+		return false;
+	}
+	return true;
 }
 
 function setWinner() {
-	$(".Winner").text("Excellent! 'X' is the winner!");
+	$(".Winner").text('Excellent! "X" is the winner!');
 
 }
 
@@ -101,7 +105,7 @@ function winnerIsO() {
 }
 
 function setWinner2() {
-	$(".Winner").text("wOoOoO.. 'O' is the winner!");
+	$(".Winner").text('wOoOoO.. "O" is the winner!');
 }
 
 
@@ -109,7 +113,7 @@ function setWinner2() {
 
 $("#Restart").click(function(){
 	location.reload(true);
-	console.log("hello");
+
 });
 
 

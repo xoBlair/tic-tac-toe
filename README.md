@@ -28,3 +28,17 @@ Some features:
 	-in the case of a “cat,”  prompt players to try again
 
 	-when the “try again” button is pressed, restart game from beginning
+
+
+
+	Thanks to :
+
+
+
+
+
+
+	A working game, built by you, hosted somewhere on the internet
+A link to your hosted working game in the URL section of your Github repo
+A git repository hosted on Github, with a link to your hosted game, and frequent commits dating back to the very beginning of the project
+A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
