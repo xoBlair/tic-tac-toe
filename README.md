@@ -5,7 +5,7 @@ Hello friend. This is an Quick Tic Tac Toe game, created just for you!
 Find it online at: 
 
 
-Some features:
+Features:
 
 	-tic tac toe game for two users to interact with a virtual game board
 
@@ -15,11 +15,11 @@ Some features:
 
 	-once game reaches 3 in a row (row, column, or diagonal) screen displays a winner
 
-	-in the result of a cat (no winner), screen displays alert message indicating it's a cat game
+	-in the result of a cat game(no winner), screen displays somethings special (=^.^=)
 
 	-when the “restart game” button is pressed, restart game from beginning
 
-	-cute pup picture for happiness
+	-cute animal pictures to induce happiness
 
 
 Technologies used:
@@ -28,14 +28,12 @@ Technologies used:
 	-Bootstrap
 	-jQuery
 	-Git and GitHub
-	-BitBaloon
+	-BitBaloon (hosted by BB, but game is pwned by me)
 	-Pivotal Tracker for project management 
 
 
-A link to your hosted working game in the URL section of your Github repo
-A git repository hosted on Github, with a link to your hosted game
-<<<<<<< HEAD
-A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
-=======
-A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
->>>>>>> 0cc4ae14558b78cad72e9c6cbff9a20929e31004
+
+
+
+
+Program created and written by Blair Johnson - copyright © 9/11/15 
