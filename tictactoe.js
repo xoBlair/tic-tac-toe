@@ -18,9 +18,18 @@ $("button").click(function() {
 	 turn++;
 	winnerIsX();
 	winnerIsO();
+	// catGame();
 
   }
 });
+
+//function for cat game
+
+// function catGame() {
+// 	if (turn===9 && winnerisX()===false && winnerisO()===false){
+// 		console.log("meow");
+// 	}
+// }
 
 
 
@@ -28,6 +37,9 @@ $("button").click(function() {
 
 function winnerIsX() {
 	if ($("#b1").text()==="X" && $("#b2").text()==="X" && $("#b3").text()==="X"){
+		setWinner();
+	}
+	else if ($("#b1").text()==="X" && $("#b4").text()==="X" && $("#b7").text()==="X"){
 		setWinner();
 	}
 	else if ($("#b4").text()==="X" && $("#b5").text()==="X" && $("#b6").text()==="X"){
@@ -42,6 +54,9 @@ function winnerIsX() {
 	else if ($("#b3").text()==="X" && $("#b5").text()==="X" && $("#b7").text()==="X"){
 		setWinner();
 	}
+	else if ($("#b3").text()==="X" && $("#b6").text()==="X" && $("#b9").text()==="X"){
+		setWinner();
+	}
 }
 
 function setWinner() {
@@ -49,12 +64,15 @@ function setWinner() {
 
 }
 
-
+// console.log(winnerIsX());
 
 //function to find if O won
 
 function winnerIsO() {
 	if ($("#b1").text()==="O" && $("#b2").text()==="O" && $("#b3").text()==="O"){
+		setWinner2();
+	}
+	else if ($("#b1").text()==="O" && $("#b4").text()==="O" && $("#b7").text()==="O"){
 		setWinner2();
 	}
 	else if ($("#b4").text()==="O" && $("#b5").text()==="O" && $("#b6").text()==="O"){
@@ -69,11 +87,15 @@ function winnerIsO() {
 	else if ($("#b3").text()==="O" && $("#b5").text()==="O" && $("#b7").text()==="O"){
 		setWinner2();
 	}
+	else if ($("#b3").text()==="O" && $("#b6").text()==="O" && $("#b9").text()==="O"){
+		setWinner2();
+	}
 }
 
 function setWinner2() {
 	$(".Winner").text("O is winner");
 }
+
 
 
 
