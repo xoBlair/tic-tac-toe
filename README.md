@@ -34,4 +34,8 @@ Technologies used:
 
 A link to your hosted working game in the URL section of your Github repo
 A git repository hosted on Github, with a link to your hosted game
+<<<<<<< HEAD
 A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
+=======
+A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
+>>>>>>> 0cc4ae14558b78cad72e9c6cbff9a20929e31004
