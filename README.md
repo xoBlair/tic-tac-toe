@@ -28,12 +28,11 @@ Technologies used:
 	-Bootstrap
 	-jQuery
 	-Git and GitHub
-	-BitBaloon (hosted by BB, but game is pwned by me)
-	-Pivotal Tracker for project management 
+	-BitBaloon
+	-Pivotal Tracker
 
 
 
 
 
 
-Program created and written by Blair Johnson - copyright © 9/11/15 
